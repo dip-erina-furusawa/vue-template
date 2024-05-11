@@ -7,8 +7,8 @@ const props = defineProps({
 })
 </script>
 <template>
-  <Button class="bg-blue-500">
+  <ShadButton>
     {{ label }}
-  </Button>
+  </ShadButton>
 </template>
 <style scoped></style>
