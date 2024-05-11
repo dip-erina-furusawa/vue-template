@@ -1,5 +1,7 @@
 <script setup lang="ts"></script>
 
-<template>hello world</template>
+<template>
+  <BasicButton label="Hello World" />
+</template>
 
 <style scoped></style>
