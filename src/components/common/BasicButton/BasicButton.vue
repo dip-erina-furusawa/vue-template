@@ -7,7 +7,7 @@ const props = defineProps({
 })
 </script>
 <template>
-  <ShadButton>
+  <ShadButton as="button">
     {{ label }}
   </ShadButton>
 </template>

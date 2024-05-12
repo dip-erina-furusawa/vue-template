@@ -24,6 +24,7 @@ export default defineConfig({
       dirs: ['src/components']
     }),
     AutoImport({
+      dts: true,
       imports: ['vue']
     })
   ],
